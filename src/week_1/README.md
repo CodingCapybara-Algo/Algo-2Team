@@ -1,4 +1,10 @@
-## 1주차 Hash
+# 1주차 Hash
+링크 : https://school.programmers.co.kr/learn/courses/30/parts/12077
 
-프로그래머스 코딩테스트 고득점 Kit
-https://school.programmers.co.kr/learn/courses/30/parts/12077
+1. 폰켓몬
+2. 완주하지 못한 선수
+3. 전화번호 목록
+4. 의상
+5. 베스트앨범
+
+
