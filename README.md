@@ -7,12 +7,12 @@
   <tr>
     <td align="center"><a href="https://github.com/lsh981127"><img src="https://avatars.githubusercontent.com/u/61014396?v=4" width="150px;" alt=""/>
     <td align="center"><a href="https://github.com/heogeonho"><img src="https://avatars.githubusercontent.com/u/111233054?v=4" width="150px;" alt=""/>
-    <td align="center"><a href="https://github.com/jjhcom"><img src="https://avatars.githubusercontent.com/u/91904494?v=4" width="150px;" alt=""/>
+    <td align="center"><a href="https://github.com/sapientia1007"><img src="https://avatars.githubusercontent.com/u/91904494?v=4" width="150px;" alt=""/>
   </tr>
     <tr>
     <td align="center"><a href="https://github.com/lsh981127" title="Code">Sean Lee</a></td>
     <td align="center"><a href="https://github.com/heogeonho" title="Code">heogeonho</a></td>
-    <td align="center"><a href="https://github.com/jjhcom" title="Code">jjhcom</a></td>
+    <td align="center"><a href="https://github.com/sapientia1007" title="Code">sapientia1007</a></td>
   </tr>
 </table>
 <br>
