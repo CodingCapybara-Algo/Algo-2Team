@@ -1,13 +1,6 @@
 package week_1.lsh981127;
 import java.util.*;
 public class pgs_폰켓몬 {
-
-    public static void main(String[] args) {
-
-
-        System.out.println(solution(new int[]{3,3,3,2,2,4}));
-    }
-
     public static int solution(int[] nums) {
         Map<Integer, Integer> map = new HashMap<>();
         int count = nums.length / 2;
