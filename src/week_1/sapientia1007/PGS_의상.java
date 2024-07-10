@@ -5,10 +5,9 @@ https://school.programmers.co.kr/learn/courses/30/lessons/42578
 의상 - Level 2
  */
 
-import java.io.*;
 import java.util.*;
 
-public class Hash_Problem4 {
+public class PGS_의상 {
     static class Solution {
         public int solution(String[][] clothes) {
             HashMap<String, Integer> clothHash = new HashMap<>();

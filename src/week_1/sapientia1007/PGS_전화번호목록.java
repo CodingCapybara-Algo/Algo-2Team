@@ -5,10 +5,9 @@ https://school.programmers.co.kr/learn/courses/30/lessons/42577
 전화번호 목록 - Level 2
  */
 
-import java.io.*;
 import java.util.*;
 
-public class Hash_Problem3 {
+public class PGS_전화번호목록 {
     static class Solution {
         public boolean solution(String[] phone_book) {
             boolean answer = true;

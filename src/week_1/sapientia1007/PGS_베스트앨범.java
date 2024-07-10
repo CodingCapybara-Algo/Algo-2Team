@@ -2,7 +2,7 @@ package week_1.sapientia1007;
 
 import java.util.*;
 
-public class Hash_Problem5 {
+public class PGS_베스트앨범 {
     static class Solution {
         public int[] solution(String[] genres, int[] plays) {
             // 장르별 총 재생 횟수를 저장할 HashMap

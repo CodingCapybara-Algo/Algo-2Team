@@ -5,10 +5,9 @@ https://school.programmers.co.kr/learn/courses/30/lessons/42576
 완주하지 못한 선수 - Level 1
  */
 
-import java.io.*;
 import java.util.*;
 
-public class Hash_Problem2 {
+public class PGS_완주하지못한선수 {
     static class Solution {
         public String solution(String[] participant, String[] completion) {
             String answer = "";

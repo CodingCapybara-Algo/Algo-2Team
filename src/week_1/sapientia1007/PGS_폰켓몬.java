@@ -5,9 +5,8 @@ https://school.programmers.co.kr/learn/courses/30/lessons/1845
 폰켓몬 - Level 1
  */
 
-import java.io.*;
 import java.util.*;
-public class Hash_Problem1 {
+public class PGS_폰켓몬 {
     static class Solution {
         public int solution(int[] nums) {
 
