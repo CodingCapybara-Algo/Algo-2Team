@@ -4,26 +4,31 @@ import java.util.Stack;
 
 public class pgs_올바른관호 {
     public class Solution {
-        public int[] solution(int []arr) {
-            Stack<Integer> st = new Stack<>();
-            st.push(arr[0]);
-            for(int i = 1; i < arr.length; i++) {
-
-                int temp = st.pop();
-                if(temp == arr[i]) {
-                    st.push(temp);
-                } else {
-                    st.push(temp);
-                    st.push(arr[i]);
+        boolean solution(String s) {
+            int left = 0;
+            int right = 0;
+            for(char i : s.toCharArray()) {
+                if(i == ')') {
+                    right++;
+                    if(left != 0) {
+                        left--;
+                        right--;
+                    } else {
+                        return false;
+                    }
                 }
 
+                if(i == '(') {
+                    left++;
+                    if(right != 0) {
+                        left--;
+                        right--;
+                    }
+                }
             }
-            int[] result = new int[st.size()];
-            for(int i = st.size(); i > 0; i--) {
-                result[i-1] = st.pop();
-            }
-            return result;
-
+            if(left != 0 || right != 0)
+                return false;
+            return true;
         }
     }
 }
