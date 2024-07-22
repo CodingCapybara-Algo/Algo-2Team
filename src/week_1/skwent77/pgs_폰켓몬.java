@@ -1,3 +1,5 @@
+package week_1.skwent77;
+
 import java.util.*;
 
 public class pgs_폰켓몬{
