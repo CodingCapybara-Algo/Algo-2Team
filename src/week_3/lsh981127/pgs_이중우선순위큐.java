@@ -8,7 +8,7 @@ import java.util.PriorityQueue;
 public class pgs_이중우선순위큐 {
     public int[] solution(String[] operations) {
         PriorityQueue<Integer> maxPQ = new PriorityQueue<>(Comparator.reverseOrder());  // 자바에서는 최대 힙을 역순으로 정렬하는 식으로 구현할 수 있었다.
-        PriorityQueue<Integer> minPQ = new PriorityQueue<>((o1, o2) -> o1-o2);
+        PriorityQueue<Integer> minPQ = new PriorityQueue<>();
         int max = 0;        // 최댓값
         int min = 0;        // 최솟값
         int count = 0;      // 출력한 횟수
