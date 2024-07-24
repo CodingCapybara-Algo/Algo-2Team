@@ -14,13 +14,14 @@ public class PGS_프로세스 {
         //큐에 초기값 삽입
 
         for (int i = 0; i < priorities.length; i++) {
+            //각 프로세스의 우선순위와 인덱스를 큐에 삽입합니
             priority.offer(priorities[i]);
             indexQueue.offer(i);
         }
         /*
 
 
-        isHighestPriority 변수는 현재 문서가 가장 높은 우선순위인지 확인 위함.
+        isHighestPriority 변수는 현재 실행중인 프로세스가 가장 높은 우선순위인지 확인 위함.
         만약 priority 큐에 현재 우선순위보다 높은 우선순위가 있다면 isHighestPriority를 false로 설정합니다.
         현재 문서가 가장 높은 우선순위라면:
         printOrder를 1 증가시킵니다.
@@ -41,6 +42,7 @@ public class PGS_프로세스 {
             if (isHighestPriority) {
                 printOrder+=1;
                 if (currentIndex == location) {
+                    //만약 currentIndex가 location과 같다면 현재 문서가 실행되므로 printOrder를 반환합니다
                     return printOrder;
                 }
             }else {
