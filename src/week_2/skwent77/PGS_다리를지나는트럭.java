@@ -23,6 +23,8 @@ public class PGS_다리를지나는트럭 {
 
            // 새로운 트럭이 다리에 올라갈 수 있는지 확인
            if (totalWeight + truck_weights[index] <= weight) {
+               //대기 중인 트럭이 존재하고 대기 중 트럭의 맨 앞 트럭의 무게+ 현재 다리의 트럭 무게 총합이 제한 무게 이하면
+               // 트럭을 하나 다리 위로 올린다.
                bridge.add(truck_weights[index]);
                totalWeight += truck_weights[index];
                index++;
