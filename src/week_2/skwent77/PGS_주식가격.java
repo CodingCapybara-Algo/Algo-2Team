@@ -1,7 +1,6 @@
 package week_2.skwent77;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
 public class PGS_주식가격 {
     public int[] solution(int[] prices){
@@ -67,12 +66,7 @@ answer: [4, 1, 1, 1, 0]
 */
 
 
-    public static void main(String[] args) throws Exception{
-        int[] prices = {1,2,3,2,3};
-        // 가격이 떨어지지 않은 기간
-        int[] answer = new int[prices.size()];
-        int[] answer
-        solution(prices);
+
 
 /* 끝났을 때 stack이 비어있지 않음
 
@@ -86,5 +80,4 @@ answer: [4, 1, 1, 1, 0]
 - answer = [4, 1, 1, 1, 0]
 */
 
-    }
 }

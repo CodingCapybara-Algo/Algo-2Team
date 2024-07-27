@@ -38,7 +38,8 @@ public class PGS_이중우선순위큐{
 				}
 			}
 		}
-    	int[2] answer =new int[];
+
+    	int[] answer =new int[2];
     	if(map.size()==0) {
 			return answer;
 		} else {

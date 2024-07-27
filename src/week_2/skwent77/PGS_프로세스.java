@@ -55,7 +55,7 @@ public class PGS_프로세스 {
         }
 
         return -2;
-    }ref
+    }
 }
 /*
 예시:

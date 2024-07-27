@@ -69,5 +69,4 @@ count-- -> count = 1
 문자열 순회 종료 후:
 count != 0 -> false 반환
 */
- */
 }
