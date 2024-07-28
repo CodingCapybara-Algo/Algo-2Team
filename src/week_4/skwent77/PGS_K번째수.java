@@ -2,9 +2,9 @@ package week_4.skwent77;
 import java.util.*;
 public class PGS_K번째수 {
 
-
     public static int[] solution(int[] array, int[][] commands) {
-        List<Integer> answer = new ArrayList<>();
+        int[] answer = {};
+        List<Integer> li = new ArrayList<>();
 
         for (int[] command : commands) {
             int start = command[0] - 1;  // 시작 인덱스
@@ -16,12 +16,14 @@ public class PGS_K번째수 {
             Arrays.sort(subArray);
 
             // k번째 수를 결과에 추가
-            answer.add(subArray[k]);
+            li.add(subArray[k]);
         }
 
         // List<Integer>를 int[]로 변환하여 반환
-        return answer.stream().mapToInt(Integer::intValue).toArray();
+        answer= li.stream().mapToInt(Integer::intValue).toArray();
+        return answer;
     }
+
     public static void main(String[] args) {
         int[] array = {1, 5, 2, 6, 3, 7, 4};
         int[][] commands = {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
@@ -29,3 +31,12 @@ public class PGS_K번째수 {
         System.out.println(Arrays.toString(result));
     }
 }
+/*테스트 1 〉	통과 (3.45ms, 81.6MB)
+테스트 2 〉	통과 (2.55ms, 82.8MB)
+테스트 3 〉	통과 (3.73ms, 73.9MB)
+테스트 4 〉	통과 (2.59ms, 72MB)
+테스트 5 〉	통과 (2.38ms, 72.6MB)
+테스트 6 〉	통과 (3.31ms, 76.5MB)
+테스트 7 〉	통과 (2.33ms, 76.2MB)
+*/
+ */
