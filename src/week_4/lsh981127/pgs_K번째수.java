@@ -10,6 +10,8 @@ public class pgs_K번째수 {
 
     public static int[] solution(int[] array, int[][] commands) {
         int[] answer = new int[commands.length];
+
+        // 주어진 범위에 맞춰서 temp 리스트에 분할해준 뒤, 오름차순 정렬 이후, k번째 값을 출력한다.
         for(int y = 0; y < commands.length; y++) {
             int[] arr = commands[y];
             int i = arr[0]-1, j = arr[1]-1, k = arr[2]-1;  // 몇 번째 ~ 몇 번째라서 index 기준으로 하려면 -1 해줘야헤
