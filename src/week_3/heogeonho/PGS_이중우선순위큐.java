@@ -1,4 +1,4 @@
-package a0000.geon;
+package week_3.heogeonho;
 
 import java.util.*;
 import java.io.*;
