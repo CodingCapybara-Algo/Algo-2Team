@@ -7,13 +7,15 @@ public class PGS_최소직사각형 {
 
             int MaxWidth = 0; int MaxHeight = 0;
 
-            for (int[] size : sizes){
+            for (int[] size : sizes){ // 현재 명함의 큰 값과 작은값을 구함 
                 int maxVal = Math.max(size[0],size[1]); // 큰값끼리 비교하기 위함
                 int minVal = Math.min(size[0], size[1]); // 작은값끼리 비교하기 위함
+                
+                // 최대 너비와 최대 높이 설정
                 MaxWidth = Math.max(maxVal, MaxWidth);
                 MaxHeight = Math.max(minVal, MaxHeight);
             }
-            answer = MaxWidth*MaxHeight;
+            answer = MaxWidth*MaxHeight; // 넓이 계산
             return answer;
         }
     }

@@ -7,7 +7,6 @@ import java.util.Arrays;
 * answer : 정답 배열
 * return : 가장 많은 문제를 맞힌 사람 배열
 *
-*
 * 1번 수포자 : 1,2,3,4,5, ..
 * 2번 수포자 : 2,1,2,3,2,4,2,5, ..
 * 3번 수포자 : 3,3,1,1,2,2,4,4,5,5, ..
@@ -16,11 +15,12 @@ public class PGS_모의고사 {
     static class Solution {
         public int[] solution(int[] answers) {
             int[] answer = {};
+            // 각 수포자의 답안 패턴
             int[] st1 = {1, 2, 3, 4, 5}; // 5개씩 반복
             int[] st2 = {2, 1, 2, 3, 2, 4, 2, 5}; // 8개씩 반복
             int[] st3 = {3, 3, 1, 1, 2, 2, 4, 4, 5, 5}; // 10개씩 반복
 
-            int[] resArr = new int[3];
+            int[] resArr = new int[3]; // 각 수포자가 맞힌 문제 수를 저장할 배열
 
             // 1번 수포자
             int cnt1 = 0;
@@ -51,11 +51,11 @@ public class PGS_모의고사 {
 
             // 가장 많은 정답을 맞힌 수포자를 찾기
             int maxVal = Arrays.stream(resArr).max().getAsInt();
-            ArrayList<Integer> answerLst = new ArrayList<>();
+            ArrayList<Integer> answerLst = new ArrayList<>(); // 정답 리스트
 
             for (int i = 0; i < resArr.length; i++) {
                 if (resArr[i] == maxVal) {
-                    answerLst.add(i + 1);
+                    answerLst.add(i + 1); // 수포자의 번호를 추가하기 위해 index+1
                 }
             }
 
@@ -67,7 +67,6 @@ public class PGS_모의고사 {
             return answer;
         }
     }
-
 
     public static void main(String[] args) throws Exception {
         Solution s = new Solution();
