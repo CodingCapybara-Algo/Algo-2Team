@@ -18,6 +18,7 @@ public class PGS_모음사전 {
             }
             return answer;
         }
+        // dfs : 모든 가능한 경로 파악
         public void dfs(String str, int len) {
             list.add(str); // 현재 문자열 추가
             if (len == 5) return; // 문자열 길이가 5이면 종료 (최대문자열길이=5)

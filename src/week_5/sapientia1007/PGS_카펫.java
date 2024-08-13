@@ -9,8 +9,8 @@ public class PGS_카펫 {
 
             for (int i=3; i<=Math.sqrt(sum); i++) {
                 if (sum % i == 0) { // 현재 i가 전체 사각형 개수의 약수인 경우
-                    int x = i; // 가로
-                    int y = sum / i; // 세로
+                    int x = i;
+                    int y = sum / i;
                     if ((x - 2) * (y - 2) == yellow) { // 노란색 타일의 개수 = 내부 타일 = (가로 길이 - 2) * (세로 길이 - 2)로 계산
                         answer[0] = Math.max(x,y); answer[1] = Math.min(x,y);
                     }

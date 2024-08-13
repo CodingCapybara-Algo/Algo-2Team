@@ -11,6 +11,7 @@ public class PGS_피로도 {
             return answer;
         }
 
+        // dfs : 모든 가능한 경로 파악
         public void dfs(int idx, int k, int[][] dungeons) { // 현재까지 클리어한 던전 수, 현재 피로도, 던전 배열
             for (int i=0; i<dungeons.length; i++){
                 if (!visited[i] && k >= dungeons[i][0]){ // 현재 던전을 방문하지 않았고, 현재 피로도가 필요 피로도보다 높으면

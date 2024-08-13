@@ -32,7 +32,7 @@ public class PGS_전력망을둘로나누기 {
             return answer;
         }
 
-        // bfs를 사용하여 주어진 노드와 연결된 모든 노드를 찾는 함수
+        // bfs를 사용하여 주어진 노드와 연결된 모든 노드를 찾는 함수 - 인접한 경로부터  (dfs: 갈 수 있는 위치 전체 탐색 / bfs : 인접한 위치부터 탐색)
         public static int bfs(int n, int n1) {
             boolean[] v = new boolean[n+1];
             int cnt = 0;
