@@ -12,8 +12,9 @@ public class PGS_조이스틱 {
      * 1. 각 자리별로 위, 아래 회전 수 작은 걸로 선택
      * 2. A가 존재한다면, Min(-> 방향 이동 횟수, <- 이동 횟수)로 카운트
      *  - 이때, while문으로 A까지의 거리 탐색
-     *  - 이후, ㅜㄷㅌㅅ 값
+     *
      */
+
     public int solution(String name) {
         int ans = 0;
         int n = name.length();
@@ -31,7 +32,7 @@ public class PGS_조이스틱 {
             // A가 연속으로 있는 구간을 건너뛰기 위한 최소 이동 거리
             // i : 현재 인덱스
             // next : 가장 먼저 나타나는 A의 인덱스
-            // n - next : i 에서 next까지의 거리
+            // n - next : 우측 끝에서 A까지의 거리
             // Math.min(i, n - next) : i에서 왼쪽으로 이동 vs 문자열 끝에서 next까지 이동하는 것중 작은 거
             // Math.min(move, Math.min(i, n - next) + i + n - next)
             //    왼쪽으로 이동하거나, 오른쪽이로 이동하는 경우를 모두 고려해 전체 이동 거리 계산

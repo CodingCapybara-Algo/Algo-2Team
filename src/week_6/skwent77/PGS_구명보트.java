@@ -11,13 +11,13 @@ public class PGS_구명보트 {
         right = people.length-1;
 
         // 최대한 적게 사용하여 모든 사람 구출
-        while (left<=right) {
+        while (left <= right) {
             //두 사람의 몸무게 합이 보트의 무게 제한 넘지 않으면 둘을 함께 태우고 보트를 사용
-            if (people[left]+ people[right] <=limit){
-                left+=1;
+            if (people[left] + people[right] <= limit) {
+                left += 1;
             }
-            right-=1;
-            answer+=1;
+            right -= 1;
+            answer += 1;
 
 
         }
