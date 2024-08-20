@@ -21,7 +21,7 @@ public class PGS_조이스틱 {
                 int next = i+1; // 다음 위치
 
                 // 다음 위치에 있는 문자가 'A'인 경우, 다음 'A'가 아닌 문자의 위치를 찾기
-                while (next < name.length() && name.charAt(next) == 'A') next++;       // 다음 A가 아닌 문자의 위치 찾기
+                while (next < name.length() && name.charAt(next) == 'A') next++;
 
                 // 현재 위치에서의 이동(오른쪽)과 되돌아가는 경로(왼쪽) 중 최소 이동 횟수 계산
                 minMove = Math.min(minMove, i+name.length()-next+Math.min(i, name.length()-next));
