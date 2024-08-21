@@ -23,7 +23,6 @@ public class PGS_체육복 {
          *
          */
 
-
         Set<Integer> lostS = new HashSet<>();
         Set<Integer> reserveS = new HashSet<>();
 

@@ -25,6 +25,7 @@ public class PGS_체육복 {
                     }
                 }
             }
+
             // 전체 결과
             for (int i=1; i<=n; i++){
                 if (clothes[i] > 0) answer++;
