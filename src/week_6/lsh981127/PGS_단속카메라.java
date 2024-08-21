@@ -1,5 +1,6 @@
 package week_6.lsh981127;
 import java.util.*;
+
 public class PGS_단속카메라 {
     public int solution(int[][] routes) {
         // 지문을 잘못 이해했다.
