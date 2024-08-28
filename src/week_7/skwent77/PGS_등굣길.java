@@ -52,6 +52,7 @@ public class PGS_등굣길 {
 //    1. 배열 만들어놓기 각 지점까지의 최단 경로
 //    2. 점화식 찾기 -> 고등수학에서 배웠던 로직이라 크게 어렵지는 않았음
 //  sub problem의 최적의 결과값을 사용하여 전체 문제의 최적의 결과를 이끌어간다는 것은 명확했음
+
     public static void main(String[] args) {
         int ans;
         int[][] arr = {{2,2}};
