@@ -1,4 +1,4 @@
-package week_8;
+package week_8.skwent77;
 //도움을 얻은 링크: https://velog.io/@soorim_yoon/DFSBFS-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-Level-3
 /*
 ** 로직:
@@ -6,7 +6,6 @@ answer: 최종적으로 찾아야 할 네트워크의 개수를 카운트합니�
 각각의 컴퓨터를 방문하여 연결된 네트워크를 검사합니다.
 만약 방문하지 않은 컴퓨터를 찾으면 DFS를 호출하고, 탐색이 끝나면 네트워크의 수를 하나 증가시
  */
-import java.util.List;
 
 public class PGS_네트워크 {
     static boolean[] visited;

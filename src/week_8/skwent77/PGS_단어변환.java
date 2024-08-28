@@ -1,4 +1,4 @@
-package week_8;
+package week_8.skwent77;
 //사고 과정: 초기 상태(시작 단어) 부터 목표 단계(목표 단어)까지 "최단 경로"-> BFS
 import java.util.LinkedList;
 import java.util.Queue;

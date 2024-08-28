@@ -1,4 +1,4 @@
-package week_8;
+package week_8.skwent77;
 
 import java.util.LinkedList;
 import java.util.Queue;

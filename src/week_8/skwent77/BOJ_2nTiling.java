@@ -1,4 +1,4 @@
-package week_8;
+package week_8.skwent77;
 import java.util.Scanner;
  //BOJ에는 Main class로 제출
 public class BOJ_2nTiling {

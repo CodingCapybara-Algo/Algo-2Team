@@ -1,4 +1,4 @@
-package week_8;
+package week_8.skwent77;
 //참고 링크: https://mungto.tistory.com/51
 public class PGS_타겟넘버 {
     public int solution(int[] numbers, int target) {
