@@ -1,8 +1,6 @@
 package week_7.skwent77;
 import java.util.Arrays;
 
-import static jdk.dynalink.linker.support.Guards.isInstance;
-
 public class PGS_등굣길 {
 
     public static int solution(int m, int n, int[][] puddles) {
